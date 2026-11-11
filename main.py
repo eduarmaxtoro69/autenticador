@@ -21,7 +21,7 @@ def main():
 
     while True:
         mostrar_menu()
-        opcion = input("Seleccione una opcion").strip()
+        opcion = input("Seleccione una opcion:  ").strip()
 
         if opcion=="1":
             print("\n ---Registro ---")
